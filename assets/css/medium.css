@@ -1,0 +1,42 @@
+.content {
+    width: 700px;
+}
+
+aside {
+    width: 180px;
+    /* margin: 20px 0 20px 0; */
+}
+
+aside h3 {
+    margin-left: 0;
+    margin-right: 2px;
+}
+
+section {
+    width: 480px;
+}
+
+.headshot {
+    width: 250px;
+}
+
+.ltor img {
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+    padding: 8px 4px 0 4px;
+}
+
+.ltor img:hover {
+    height: 48px;
+    width: 48px;
+    padding: 0;
+}
+
+
+/* figure,
+figure img {
+    float: left;
+    width: 300px;
+    position: relative;
+} */

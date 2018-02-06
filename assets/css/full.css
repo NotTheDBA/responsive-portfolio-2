@@ -1,0 +1,365 @@
+/************************
+    Clear defaults.
+*************************/
+
+@import 'reset.css';
+
+/************************
+    fonts
+*************************/
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption,
+.logo {
+    font-family: 'Georgia', Times, 'Times New Roman', serif
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+
+/************************
+    Colors
+*************************/
+
+body {
+    background: #f5f5f5;
+    background-image: url("../images/concrete-texture.png");
+    color: #777777;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: #cccccc solid 2px;
+}
+
+hr {
+    background-color: #d3d3d3;
+}
+
+section,
+aside {
+    background: #ffffff;
+}
+
+section h2,
+aside h3 {
+    border-bottom: 2px solid #d3d3d3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4aaaa5;
+}
+
+nav,
+nav a {
+    color: #777777;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+}
+
+footer {
+    color: #dddddd;
+    background: #666666;
+    border-top: 10px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+
+
+/************************
+    Sizing & Position
+*************************/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 76px;
+}
+
+section,
+.content {
+    margin: 0 auto;
+}
+
+.content {
+    width: 960px;
+}
+
+nav,
+aside {
+    float: right;
+    margin: 20px 0 20px 20px;
+    width: 270px;
+}
+
+section {
+    float: left;
+    margin: 20px 20px 20px 0;
+    height: 580px;
+    width: 650px;
+    overflow: auto;
+}
+
+section,
+aside {
+    height: fit-content;
+}
+
+section h2,
+aside h3 {
+    margin: 10px 20px;
+}
+
+section p,
+section form,
+section table {
+    padding: 10px 20px;
+}
+
+aside ul {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+nav {
+    padding: 20px 0;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+nav a {
+    margin: auto 5px;
+}
+
+hr {
+    height: 1px;
+    width: 95%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/************************
+    Misc
+*************************/
+
+.clear {
+    clear: both;
+}
+
+.licenses {
+    font-size: 10px;
+}
+
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.btn-default {
+    border: 0;
+    font-size: 14px;
+    background: #4aaaa5;
+    padding: 11px 30px;
+}
+
+
+/************************
+    Content container
+*************************/
+
+.content {
+    flex: 1 0 auto;
+    background: #ffffff;
+    /* border-top: #dddddd solid 2px;
+    border-bottom: #dddddd solid 2px; */
+}
+
+
+/************************
+    Logo
+*************************/
+
+.logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+/************************
+    Headshot
+*************************/
+
+.headshot {
+    float: left;
+    margin: 10px 20px;
+    position: relative;
+}
+
+
+/************************
+    Left-to-Right links
+*************************/
+
+.ltor {
+    display: inline;
+    margin: 0;
+}
+
+.ltor a {
+    text-decoration: none;
+}
+
+.ltor-text+.ltor-text {
+    border-left: #777777 1px solid;
+}
+
+
+/* TODO: Switch to smaller icons once Twitter is added */
+
+.ltor img {
+    height: 60px;
+    width: 60px;
+    padding: 10px 5px 0 5px;
+}
+
+.ltor img:hover {
+    height: 70px;
+    width: 70px;
+    padding: 0;
+}
+
+
+/************************
+    Form
+*************************/
+
+.register-group label {
+    color: #648880;
+    cursor: pointer;
+}
+
+.register-group input {
+    height: 25px;
+}
+
+.register-group textarea {
+    height: 150px;
+}
+
+.register-group input,
+.register-group textarea {
+    width: 95%;
+    padding: 5px;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+    border: 2px solid #dddddd;
+    margin: 5px 0;
+    /* 
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    padding: 5px 8px; */
+}
+
+
+/************************
+    Portfolio
+*************************/
+
+figure,
+figure img {
+    float: left;
+    width: 300px;
+    position: relative;
+}
+
+figure img {
+    border: #777777 solid 1px;
+}
+
+figure {
+    margin: 10px;
+}
+
+figcaption {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+figcaption a {
+    text-decoration: none;
+}
+
+figcaption:hover {
+    color: #777777;
+}
