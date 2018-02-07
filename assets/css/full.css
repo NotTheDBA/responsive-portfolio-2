@@ -132,13 +132,13 @@ aside {
 section {
     float: left;
     margin: 20px 20px 20px 0;
-    height: 580px;
+    height: 100%;
     width: 650px;
-    /* overflow: auto; */
 }
 
 section,
-aside {
+aside,
+.content {
     height: fit-content;
 }
 
@@ -224,11 +224,6 @@ footer {
 
 .content {
     flex: 1 0 auto;
-}
-
-aside,
-section {
-    background: #ffffff;
 }
 
 

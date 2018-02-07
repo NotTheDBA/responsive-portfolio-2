@@ -1,52 +1,20 @@
 .content {
     width: 768px;
-    height: 100%;
 }
 
 .headshot {
-    /* width: 250px; */
     float: left;
 }
 
 section {
-    width: 480px;
+    width: 400px;
 }
 
 section p {
     float: left;
 }
 
-aside {
-    width: 240px;
+figure {
+    position: relative;
+    left: 10%;
 }
-
-
-/* section {
-    width: 480px;
-} */
-
-
-/* aside {
-    width: 180px;
-} */
-
-
-/* aside h3 {
-    margin-left: 0;
-    margin-right: 2px;
-} */
-
-
-/* .ltor img {
-    height: 40px;
-    width: 40px;
-    padding-top: 8px;
-    padding: 8px 4px 0 4px;
-} */
-
-
-/* .ltor img:hover {
-    height: 48px;
-    width: 48px;
-    padding: 0;
-} */
