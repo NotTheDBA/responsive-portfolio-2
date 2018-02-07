@@ -1,11 +1,56 @@
-.content {
+/* .content {
     width: 460px;
-}
+} */
 
 header,
-footer {
+footer,
+.content {
     width: 100%;
 }
+
+.content {
+    height: fit-content;
+}
+
+section,
+aside,
+.headshot {
+    float: left;
+}
+
+.headshot {
+    width: 90%;
+}
+
+aside,
+section {
+    width: 90%;
+    margin: 20px;
+}
+
+aside ul {
+    text-align: left;
+}
+
+figure {
+    left: 3%;
+}
+
+figure {
+    width: 90%;
+    text-align: center;
+}
+
+figcaption {
+    width: 94.5%;
+}
+
+figure img {
+    width: 100%;
+}
+
+
+/*  
 
 nav {
     float: right;
@@ -47,12 +92,4 @@ section {
 
 .ltor+.ltor {
     border-left: 0;
-}
-
-
-/* figure,
-figure img {
-    float: left;
-    width: 240px;
-    position: relative;
 } */
