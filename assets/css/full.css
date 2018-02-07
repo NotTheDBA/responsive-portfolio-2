@@ -134,7 +134,7 @@ section {
     margin: 20px 20px 20px 0;
     height: 580px;
     width: 650px;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 section,
@@ -224,9 +224,11 @@ footer {
 
 .content {
     flex: 1 0 auto;
+}
+
+aside,
+section {
     background: #ffffff;
-    /* border-top: #dddddd solid 2px;
-    border-bottom: #dddddd solid 2px; */
 }
 
 

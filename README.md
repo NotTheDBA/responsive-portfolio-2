@@ -18,7 +18,7 @@ In this assignment, you'll create two different portfolios. The first will be bu
 
 ### Assignment Two Instructions - (No Bootstrap)
 
-1. Copy the contents of `Basic-Portfolio` (your first homework solution) and paste the mentioned files into `Responsive-Portfolio`.
+1. Copy the contents of `Basic-Portfolio` (https://notthedba.github.io/Basic-Portfolio/index.html) and paste the mentioned files into `Responsive-Portfolio`.
 
 2. Note: Be sure not to include any dot files (e.g. .git, .gitignore) from the `Basic-Portfolio` repo.
 
@@ -74,6 +74,6 @@ If you have any questions about this project or the material we have covered, pl
 
 - - -
 
-See https://github.com/NotTheDBA/Basic-Portfolio/blob/master/recommended-homework-assignment.md for additional details.
+See <https://github.com/NotTheDBA/Basic-Portfolio/blob/master/recommended-homework-assignment.md> for additional details.
 
-Demo: https://notthedba.github.io/Basic-Portfolio/index.html
+Demo: <https://notthedba.github.io/responsive-portfolio-2/>
