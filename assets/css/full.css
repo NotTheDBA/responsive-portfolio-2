@@ -105,7 +105,12 @@ body {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -139,6 +144,8 @@ section {
 section,
 aside,
 .content {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
@@ -160,7 +167,11 @@ aside ul {
 
 nav {
     padding: 20px 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     text-align: center;
 }
@@ -223,6 +234,8 @@ footer {
 *************************/
 
 .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
     flex: 1 0 auto;
 }
 
@@ -237,7 +250,11 @@ footer {
     padding: 20px;
     background: #4aaaa5;
     color: #ffffff;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 

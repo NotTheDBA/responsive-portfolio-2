@@ -5,6 +5,8 @@ footer,
 }
 
 .content {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
