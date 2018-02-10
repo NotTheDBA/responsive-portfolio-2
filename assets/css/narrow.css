@@ -47,55 +47,6 @@ figure {
     text-align: center;
 }
 
-figcaption {
-    width: 94.5%;
-}
-
 figure img {
     width: 100%;
 }
-
-
-/*  
-
-nav {
-    float: right;
-    margin: 0;
-    width: 120px;
-    padding: 20px 0;
-    height: fit-content;
-    width: fit-content;
-    text-align: left;
-}
-
-aside {
-    display: block;
-    float: left;
-    margin: 0;
-}
-
-section {
-    width: 440px;
-    margin-top: 0;
-}
-
-.headshot {
-    width: 250px;
-}
-
-.ltor img {
-    height: 40px;
-    width: 40px;
-    padding-top: 8px;
-    padding: 8px 4px 0 4px;
-}
-
-.ltor img:hover {
-    height: 48px;
-    width: 48px;
-    padding: 0;
-}
-
-.ltor+.ltor {
-    border-left: 0;
-} */
