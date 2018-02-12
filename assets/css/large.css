@@ -1,20 +1,22 @@
-.content {
-    width: 768px;
-}
+/************************
+    large screen
+*************************/
 
-.headshot {
-    float: left;
-}
-
-section {
-    width: 400px;
-}
-
-section p {
-    float: left;
-}
-
-figure {
-    position: relative;
-    left: 10%;
+@media screen and (max-width: 980px) {
+    .content {
+        width: 768px;
+    }
+    .headshot {
+        float: left;
+    }
+    section {
+        width: 400px;
+    }
+    section p {
+        float: left;
+    }
+    figure {
+        position: relative;
+        left: 10%;
+    }
 }

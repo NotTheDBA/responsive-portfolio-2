@@ -1,37 +1,37 @@
-header,
-footer,
-.content {
-    width: 100%;
-}
+/************************
+    Medium screen
+*************************/
 
-.content {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-}
-
-section,
-aside,
-.headshot {
-    float: left;
-}
-
-aside,
-section {
-    width: 600px;
-    margin: 20px;
-}
-
-aside ul {
-    text-align: left;
-}
-
-figure {
-    left: 3%;
-}
-
-figure,
-figure img {
-    width: 265px;
-    text-align: center;
+@media screen and (max-width: 768px) {
+    header,
+    footer,
+    .content {
+        width: 100%;
+    }
+    .content {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    section,
+    aside,
+    .headshot {
+        float: left;
+    }
+    aside,
+    section {
+        width: 600px;
+        margin: 20px;
+    }
+    aside ul {
+        text-align: left;
+    }
+    figure {
+        left: 3%;
+    }
+    figure,
+    figure img {
+        width: 265px;
+        text-align: center;
+    }
 }

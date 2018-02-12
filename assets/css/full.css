@@ -377,3 +377,116 @@ figcaption a {
 figcaption:hover {
     color: #777777;
 }
+
+
+/************************
+    large screen
+*************************/
+
+@media screen and (max-width: 980px) {
+    .content {
+        width: 768px;
+    }
+    .headshot {
+        float: left;
+    }
+    section {
+        width: 400px;
+    }
+    section p {
+        float: left;
+    }
+    figure {
+        position: relative;
+        left: 10%;
+    }
+}
+
+
+/************************
+    Medium screen
+*************************/
+
+@media screen and (max-width: 768px) {
+    header,
+    footer,
+    .content {
+        width: 100%;
+    }
+    .content {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    section,
+    aside,
+    .headshot {
+        float: left;
+    }
+    aside,
+    section {
+        width: 600px;
+        margin: 20px;
+    }
+    aside ul {
+        text-align: left;
+    }
+    figure {
+        left: 3%;
+    }
+    figure,
+    figure img {
+        width: 265px;
+        text-align: center;
+    }
+}
+
+
+/************************
+    Narrow screen
+*************************/
+
+@media screen and (max-width: 640px) {
+    nav {
+        margin: 0;
+        padding: 20px 0;
+        width: 50%;
+    }
+    header,
+    footer,
+    .content {
+        width: 100%;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .content {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    section,
+    aside,
+    .headshot {
+        float: left;
+    }
+    .headshot {
+        width: 90%;
+    }
+    aside,
+    section {
+        width: 90%;
+        margin: 20px;
+    }
+    aside ul {
+        text-align: left;
+    }
+    figure {
+        left: 3%;
+        text-align: center;
+        width: 90%;
+    }
+    figure img {
+        width: 100%;
+    }
+}
